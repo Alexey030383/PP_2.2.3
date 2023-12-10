@@ -10,18 +10,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911510c7-5dc4-434b-ac89-d65b7b9438cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PP_2.2.3.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/classes/web/config/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/classes/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/classes/web/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/angus-activation-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/antlr4-runtime-4.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/attoparser-2.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/byte-buddy-1.14.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/hibernate-commons-annotations-6.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/hibernate-core-6.4.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/istack-commons-runtime-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jakarta.activation-api-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jakarta.inject-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jandex-3.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jaxb-core-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jaxb-runtime-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/jboss-logging-3.5.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/mysql-connector-j-8.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/slf4j-api-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-aop-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-beans-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-context-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-core-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-expression-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-jcl-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-jdbc-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-orm-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-tx-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-web-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/spring-webmvc-5.3.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/thymeleaf-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/thymeleaf-spring5-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/txw2-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring MVC + Hibernate/WEB-INF/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/HelloController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,26 +96,27 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ZLieA4FVIDNKQvJQZLb5yLl9p1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.23563218",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23563218&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MyFirstTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="MyFirstTomcat" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -71,7 +128,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="97c9b69b-0bca-4786-a98f-70553e01da90" />
+        <option name="BASE_DIRECTORY_NAME" value="a8815939-9c92-47f4-a55b-8f3b96aba4c0" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -79,7 +136,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63602" />
+        <option name="DEBUG_PORT" value="55908" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -148,18 +205,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,6 +216,7 @@
       <updated>1702207853376</updated>
       <workItem from="1702207854682" duration="3000" />
       <workItem from="1702207900028" duration="1891000" />
+      <workItem from="1702235770246" duration="770000" />
     </task>
     <servers />
   </component>
