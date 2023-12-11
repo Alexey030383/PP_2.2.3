@@ -10,7 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911510c7-5dc4-434b-ac89-d65b7b9438cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -49,8 +66,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -169,6 +188,7 @@
       <workItem from="1702207900028" duration="1891000" />
       <workItem from="1702235770246" duration="770000" />
       <workItem from="1702239681191" duration="47000" />
+      <workItem from="1702245657069" duration="7304000" />
     </task>
     <servers />
   </component>
