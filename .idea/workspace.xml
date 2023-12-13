@@ -10,13 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911510c7-5dc4-434b-ac89-d65b7b9438cf" name="Changes" comment="PP_2.2.3_update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +175,7 @@
       <workItem from="1702239681191" duration="47000" />
       <workItem from="1702245657069" duration="7304000" />
       <workItem from="1702253059813" duration="102000" />
-      <workItem from="1702470616078" duration="1144000" />
+      <workItem from="1702470616078" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="PP_2.2.3_update">
       <option name="closed" value="true" />
@@ -190,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702253141578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PP_2.2.3_update">
+      <option name="closed" value="true" />
+      <created>1702471831724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702471831724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
