@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService {
         this.userDao = userDao;
     }
 
+    @Transactional(readOnly = true)
     @Override
     public List<User> getAllUsers() {
         return userDao.getAllUser();
@@ -35,6 +36,7 @@ public class UserServiceImpl implements UserService {
         userDao.deleteUser(id);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public User getUser(Long id) {
         return userDao.getUser(id);
