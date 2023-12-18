@@ -43,6 +43,7 @@ public class UserController {
     @GetMapping("/updateInfo")
     public String updateUser(@RequestParam("userId") Long id, Model model) {
         User user = userService.getUser(id);
+        userService.update(user);
         model.addAttribute("user", user);
         return "info";
     }

@@ -2,13 +2,14 @@ package web.dao;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import web.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@Repository
+@Component
 public class UserDaoImpl implements UserDao {
 
     @PersistenceContext
@@ -30,6 +31,7 @@ public class UserDaoImpl implements UserDao {
         entityManager.flush();
     }
 
+    @Override
     public void update(User user) {
         entityManager.merge(user);
         entityManager.flush();
