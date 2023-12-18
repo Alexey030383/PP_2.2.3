@@ -24,6 +24,12 @@ public class UserServiceImpl implements UserService {
         return userDao.getAllUser();
     }
 
+    @Transactional(readOnly = true)
+    @Override
+    public User getUser(Long id) {
+        return userDao.getUser(id);
+    }
+
     @Transactional
     @Override
     public void saveUser(User user) {
@@ -32,13 +38,13 @@ public class UserServiceImpl implements UserService {
 
     @Transactional
     @Override
-    public void deleteUser(Long id) {
-        userDao.deleteUser(id);
+    public void update(User user) {
+        userDao.update(user);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional
     @Override
-    public User getUser(Long id) {
-        return userDao.getUser(id);
+    public void deleteUser(Long id) {
+        userDao.deleteUser(id);
     }
 }

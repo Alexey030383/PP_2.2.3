@@ -8,9 +8,11 @@ public interface UserDao {
 
     List<User> getAllUser();
 
+    User getUser(Long id);
+
     void saveUser(User user);
 
-    User getUser(Long id);
+    void update(User user);
 
     void deleteUser(Long id);
 
