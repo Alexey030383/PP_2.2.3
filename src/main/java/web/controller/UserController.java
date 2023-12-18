@@ -35,15 +35,14 @@ public class UserController {
     }
 
     @PostMapping(value = "/saveUser")
-    public String saveUser(@ModelAttribute("user") User user) {
-        userService.saveUser(user);
+    public String saveOrUpdateUser(@ModelAttribute("user") User user) {
+        userService.saveOrUpdateUser(user);
         return "redirect:/";
     }
 
     @GetMapping("/updateInfo")
     public String updateUser(@RequestParam("userId") Long id, Model model) {
         User user = userService.getUser(id);
-        userService.update(user);
         model.addAttribute("user", user);
         return "info";
     }
