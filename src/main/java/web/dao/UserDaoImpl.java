@@ -1,11 +1,13 @@
 package web.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 import web.model.User;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 
 @Repository
@@ -25,8 +27,18 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void saveOrUpdateUser(User user) {
+    public void saveUser(User user) {
         entityManager.persist(entityManager.contains(user) ? user : entityManager.merge(user));
+    }
+
+    @Override
+    public User update(Long id) {
+        Optional<User> optional = Optional.ofNullable(entityManager.find(User.class, id));
+        if (optional.isPresent()) {
+            return optional.get();
+        } else {
+            throw new EntityNotFoundException("Пользователь не существует: " + id);
+        }
     }
 
     @Override

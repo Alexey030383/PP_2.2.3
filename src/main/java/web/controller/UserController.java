@@ -35,8 +35,8 @@ public class UserController {
     }
 
     @PostMapping(value = "/saveUser")
-    public String saveOrUpdateUser(@ModelAttribute("user") User user) {
-        userService.saveOrUpdateUser(user);
+    public String saveUser(@ModelAttribute("user") User user) {
+        userService.saveUser(user);
         return "redirect:/";
     }
 
